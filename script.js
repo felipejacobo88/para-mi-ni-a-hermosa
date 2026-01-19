@@ -44,7 +44,7 @@ function corazones(){
   for(let i=0;i<60;i++){
     const h=document.createElement("div");
     h.className="heart";
-    h.innerHTML="❤️";
+    h.innerHTML="💗";
     h.style.left=Math.random()*100+"vw";
     h.style.fontSize=16+Math.random()*20+"px";
     h.style.animationDuration=4+Math.random()*6+"s";
@@ -65,3 +65,4 @@ function snoppysVolando(){
     setTimeout(()=>s.remove(),10000);
   }
 }
+
